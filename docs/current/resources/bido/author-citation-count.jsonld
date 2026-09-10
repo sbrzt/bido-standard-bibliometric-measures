@@ -1,0 +1,109 @@
+[
+  {
+    "@id": "http://purl.org/spar/bido/author-citation-count",
+    "@type": [
+      "http://purl.org/spar/bido/BibliometricMeasure",
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db1"
+      },
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:author-citation-count ;\n        bido:hasNumericValue \"56\"^^xsd:integer .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The count of all the citation received by all the papers of a certain author."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "author citation count"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db2"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db6"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db6",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db3"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db5"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db4",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/holdsBibliometricDataInTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db5",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/withBibliometricData"
+      }
+    ]
+  }
+]

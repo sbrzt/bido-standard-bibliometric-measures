@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+>
+  <rdf:Description rdf:about="http://purl.org/spar/bido/hasNumericValue">
+    <rdfs:range rdf:nodeID="N8e458fabc0e44ad3b1c18de76dba5550"/>
+    <rdfs:range rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db29"/>
+    <rdfs:range rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db32"/>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:label xml:lang="en">has numeric value</rdfs:label>
+    <rdfs:comment xml:lang="en">The actual value of the bibliometric data in consideration.</rdfs:comment>
+    <vann:example>
+    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;
+        bido:hasNumericValue "2.464"^^xsd:float .
+    </vann:example>
+    <rdfs:domain rdf:resource="http://purl.org/spar/bido/NumericBibliometricData"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e458fabc0e44ad3b1c18de76dba5550">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:unionOf rdf:nodeID="N74e9b140a123496684d86baf8c0bcd23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db29">
+    <owl:unionOf rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db30"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db30">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:rest rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db33">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:rest rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db34"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74e9b140a123496684d86baf8c0bcd23">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:rest rdf:nodeID="Nfef4ee8b05ce4d20bbb2faba300c43ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db34">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db31">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfef4ee8b05ce4d20bbb2faba300c43ef">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db32">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:unionOf rdf:nodeID="n16989240426d470a9f8ba79d280bfa1db33"/>
+  </rdf:Description>
+</rdf:RDF>

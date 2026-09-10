@@ -1,0 +1,28 @@
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#range> _:N8e458fabc0e44ad3b1c18de76dba5550 .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#range> _:n16989240426d470a9f8ba79d280bfa1db29 .
+_:N8e458fabc0e44ad3b1c18de76dba5550 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#label> "has numeric value"@en .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The actual value of the bibliometric data in consideration."@en .
+_:n16989240426d470a9f8ba79d280bfa1db29 <http://www.w3.org/2002/07/owl#unionOf> _:n16989240426d470a9f8ba79d280bfa1db30 .
+_:n16989240426d470a9f8ba79d280bfa1db30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+_:n16989240426d470a9f8ba79d280bfa1db33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+_:N74e9b140a123496684d86baf8c0bcd23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+_:n16989240426d470a9f8ba79d280bfa1db33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n16989240426d470a9f8ba79d280bfa1db34 .
+<http://purl.org/spar/bido/hasNumericValue> <http://purl.org/vocab/vann/example> "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    " .
+_:n16989240426d470a9f8ba79d280bfa1db29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/NumericBibliometricData> .
+_:n16989240426d470a9f8ba79d280bfa1db34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n16989240426d470a9f8ba79d280bfa1db31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n16989240426d470a9f8ba79d280bfa1db30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n16989240426d470a9f8ba79d280bfa1db31 .
+_:N74e9b140a123496684d86baf8c0bcd23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nfef4ee8b05ce4d20bbb2faba300c43ef .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#range> _:n16989240426d470a9f8ba79d280bfa1db32 .
+_:n16989240426d470a9f8ba79d280bfa1db31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+_:n16989240426d470a9f8ba79d280bfa1db34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+_:N8e458fabc0e44ad3b1c18de76dba5550 <http://www.w3.org/2002/07/owl#unionOf> _:N74e9b140a123496684d86baf8c0bcd23 .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:Nfef4ee8b05ce4d20bbb2faba300c43ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core/> .
+_:Nfef4ee8b05ce4d20bbb2faba300c43ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n16989240426d470a9f8ba79d280bfa1db32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:n16989240426d470a9f8ba79d280bfa1db32 <http://www.w3.org/2002/07/owl#unionOf> _:n16989240426d470a9f8ba79d280bfa1db33 .

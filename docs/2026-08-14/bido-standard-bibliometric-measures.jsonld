@@ -1,0 +1,1732 @@
+[
+  {
+    "@id": "http://purl.org/spar/bido/withBibliometricData",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-journal a fabio:Journal ;\n        bido:holdsBibliometricDataInTime :my-bibliometric-data-in-time .\n\n    :my-bibliometric-data-in-time a bido:BibliometricDataInTime ;\n        bido:accordingTo :my-organization ;\n        bido:withBibliometricData :my-numeric-bibliometric-data .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between an entity's bibliometric data in time and a definition of the type of bibliometric data held by this entity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricDataInTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "with bibliometric data"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricData"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/withValue"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/holdsBibliometricDataInTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-journal a fabio:Journal ;\n        bido:holdsBibliometricDataInTime :my-bibliometric-data-in-time .\n\n    :my-bibliometric-data-in-time a bido:BibliometricDataInTime ;\n        bido:accordingTo :my-organization ;\n        bido:withBibliometricData :my-numeric-bibliometric-data .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between a person or any other publication-related entity and bibliometric data that the entity holds."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "holds bibliometric data in time"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricDataInTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/hasValue"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "\nThe ontology permits one to specify the time period over which a bibliometric data is held, and the other contextual entities responsible for having provided such bibliometric data.\n    "
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/hasMeasure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:journal-impact-factor .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between some bibliometric data and a measure (e.g., h-index, e-index, journal impact factor)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://purl.org/spar/bido/NumericBibliometricData"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "has measure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricMeasure"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/creator",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido-core",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://purl.org/dc/elements/1.1/contributor": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sebastian Barzaghi (https://orcid.org/0000-0002-0799-1527)"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Silvio Peroni (http://orcid.org/0000-0003-0530-4305)"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Francesco Osborne (https://orcid.org/0000-0001-6557-3131)"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Enrico Motta (https://orcid.org/0000-0003-0015-1952)"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2026-08-14"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@language": "en",
+        "@value": "\nThe core module of BiDO allows us to describe any entity and the related bibliometric data (through the property `bido:holdsBibliometricDataInTime`) at a certain time (i.e., `tvc:atTime`, a property defined by the imported TVC ontology for specifying temporal instants or intervals) and according to a certain agent (through the property `bido:accordingTo`, which is a sub-property of `prov:wasAttributedTo` and allows us to indicate the agent responsible for such bibliometric data).\n\n![The architecture of the BiDO-Core module.](bido-core.png)\n\nTwo alternative kinds of bibliometric data are specifiable (through the property `bido:withBibliometricData`) in BiDO: numeric data and categorial data. \nNumeric data are those characterised by a certain integer or float value related to a particular bibliometric measure. \nSome of these measures – i.e., h-index, author citation count, e-index, and journal impact factor – are available in a particular module of BiDO responsible for describing the most common bibliometric measures.\n"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@language": "en",
+        "@value": "BiDO Core module (BiDO-Core)"
+      }
+    ],
+    "http://purl.org/dc/terms/bibliographicCitation": [
+      {
+        "@value": "Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@value": "2015-07-14"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2015-07-14"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@value": "2026-08-14"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://ror.org/00wb4mk85"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://github.com/SPAROntologies/bido/blob/master/docs/cq.md"
+      }
+    ],
+    "http://purl.org/ontology/bibo/doi": [
+      {
+        "@value": "https://doi.org/10.25504/FAIRsharing.d7f0a9"
+      }
+    ],
+    "http://purl.org/ontology/bibo/status": [
+      {
+        "@id": "http://purl.org/ontology/bibo/status/published"
+      }
+    ],
+    "http://purl.org/vocab/vann/changes": [
+      {
+        "@language": "en",
+        "@value": "\n* **v1.2.1**: Added new documentation, including annotation properties (e.g., `bibo:doi`, `schema:codeRepository`, etc.), term properties (e.g., `vann:example`, `vs:term_status`, etc.), exemplary competency questions with their respective SPARQL queries, and a Grafoo diagram.\n    "
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
+      {
+        "@language": "en",
+        "@value": "bido"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespaceUri": [
+      {
+        "@language": "en",
+        "@value": "http://purl.org/spar/bido"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "BiDO Core module (BiDO-Core)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.sparontologies.net/ontologies/bido"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#backwardCompatibleWith": [
+      {
+        "@id": "http://purl.org/spar/bido-core/2018-07-13"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "http://purl.org/spar/tvc"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#priorVersion": [
+      {
+        "@id": "http://purl.org/spar/bido-core/2018-07-13"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionIRI": [
+      {
+        "@id": "http://purl.org/spar/bido-core/2026-08-14"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "1.2.1"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/logo": [
+      {
+        "@id": "https://github.com/SPAROntologies/bido/blob/master/spar.png"
+      }
+    ],
+    "https://schema.org/codeRepository": [
+      {
+        "@id": "https://github.com/SPAROntologies/bido"
+      }
+    ],
+    "https://schema.org/includedInDataCatalog": [
+      {
+        "@id": "https://fairsharing.org/"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#Thing",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/CategorialBibliometricData",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-person a foaf:Person ;\n        bido:holdsBibliometricDataInTime :my-bibliometric-data-in-time .\n\n    :my-bibliometric-data-in-time a bido:BibliometricDataInTime ;\n        bido:accordingTo :my-organization ;\n        bido:withBibliometricData :my-categorial-bibliometric-data .\n\n    :my-categorial-bibliometric-data a bido:CategorialBibliometricData .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Categorical information that characterises publication-related entities from a bibliometric point of view."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "categorial bibliometric data"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricData"
+      },
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Person",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A person."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "person"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2012/04/tvc/atTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between a situation and the particular temporal instant or time period in which the situation takes place."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/tvc/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "at time"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/BibliometricMeasure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:journal-impact-factor .\n\n    bido:journal-impact-factor a bido:BibliometricMeasure .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Any kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "bibliometric measure"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/description",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/NumericBibliometricData",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:journal-impact-factor ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "numeric bibliometric data"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db25"
+      },
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db26"
+      },
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db27"
+      },
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db28"
+      },
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricData"
+      },
+      {
+        "@id": "_:N4f79af38a88c4a928d583797134b1551"
+      },
+      {
+        "@id": "_:Na31f5272667c44799b71baa06a873697"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db25",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasNumericValue"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db26",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db27",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasNumericValue"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db28",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4f79af38a88c4a928d583797134b1551",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na31f5272667c44799b71baa06a873697",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasNumericValue"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/h-index",
+    "@type": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db13"
+      },
+      "http://purl.org/spar/bido/BibliometricMeasure",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:h-index ;\n        bido:hasNumericValue \"8\"^^xsd:integer .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An index that attempts to measure both the productivity and impact of the published work of a scientist or scholar. The index is based on the set of the scientist's most cited papers and the number of citations that they have received in other publications. The index can also be applied to the productivity and impact of a group of scientists, such as a department or university or country, as well as a scholarly journal."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "h-index"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db13",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db14"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db18"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db14",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db15"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db17"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db15",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db16"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db16",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/holdsBibliometricDataInTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db17",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/withBibliometricData"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db18",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/title",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A particular kind of time-indexed situation that represents a hub linking the entity having a particular value, the value itself and the temporal and contextual extents from which the entity-value relationship depends."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/tvc/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "value in time"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2012/04/tvc/withValue",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between the value in time situation and the actual value held by the entity partaking in that situation."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/tvc/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "with value"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#float",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/rights",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/e-index",
+    "@type": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db7"
+      },
+      "http://purl.org/spar/bido/BibliometricMeasure",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:e-index ;\n        bido:hasNumericValue \"3\"^^xsd:integer .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An h-index complement, aimed at considering the contributions of excess citations, which are mainly from highly cited papers. It is necessary, especially for evaluating highly cited scientists or for precisely comparing the scientific output of a group of scientists having an identical h-index."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "e-index"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db7",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db8"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db12"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db8",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db9"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db11"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db10"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db10",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/holdsBibliometricDataInTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db11",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/withBibliometricData"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db12",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/accordingTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-bibliometric-data-in-time a bido:BibliometricDataInTime ;\n        bido:accordingTo :my-organization ;\n        bido:withBibliometricData :my-numeric-bibliometric-data .\n\n    :my-organization a prov:Agent .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between a bibliometric data in time situation and an agent who provided such data."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricDataInTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "according to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/ns/prov#Agent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.w3.org/ns/prov#wasAttributedTo"
+      },
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/withinContext"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/Journal",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A scholarly periodical primarily devoted to the publication of original research papers."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/fabio/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "journal"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/hasNumericValue",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The actual value of the bibliometric data in consideration."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://purl.org/spar/bido/NumericBibliometricData"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "has numeric value"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db29"
+      },
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db32"
+      },
+      {
+        "@id": "_:N8e458fabc0e44ad3b1c18de76dba5550"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db29",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#float"
+          },
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db32",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#float"
+          },
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N8e458fabc0e44ad3b1c18de76dba5550",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#float"
+          },
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/time#Interval",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A temporal entity with an extent or duration."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.w3.org/2006/time#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "time interval"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido-standard-bibliometric-measures",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://purl.org/dc/elements/1.1/contributor": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sebastian Barzaghi (https://orcid.org/0000-0002-0799-1527)"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Enrico Motta (https://orcid.org/0000-0003-0015-1952)"
+      },
+      {
+        "@value": "Francesco Osborne (https://orcid.org/0000-0001-6557-3131)"
+      },
+      {
+        "@value": "Silvio Peroni (http://orcid.org/0000-0003-0530-4305)"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2026-08-14"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@language": "en",
+        "@value": "\nThis module of BiDO describes a list of possible bibliometric measures tha can be used to define bibliometric data of publication-related entities, e.g.: h-index, e-index, journal impact factor, author citation count.\n\n![The architecture of the BiDO-Standard-Bibliometric-Measures module.](bido-standard-bibliometric-measures.png)\n\n"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "BiDO Standard Bibliometric Measures module (BiDO-Standard-Bibliometric-Measures)"
+      }
+    ],
+    "http://purl.org/dc/terms/bibliographicCitation": [
+      {
+        "@value": "Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@value": "2015-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2015-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@value": "2026-08-14"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://ror.org/00wb4mk85"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://github.com/SPAROntologies/bido/blob/master/docs/cq.md"
+      }
+    ],
+    "http://purl.org/ontology/bibo/doi": [
+      {
+        "@value": "https://doi.org/10.25504/FAIRsharing.d7f0a9"
+      }
+    ],
+    "http://purl.org/ontology/bibo/status": [
+      {
+        "@id": "http://purl.org/ontology/bibo/status/published"
+      }
+    ],
+    "http://purl.org/vocab/vann/changes": [
+      {
+        "@language": "en",
+        "@value": "\n* **v1.1.1**: Added new documentation, including annotation properties (e.g., `bibo:doi`, `schema:codeRepository`, etc.), term properties (e.g., `vann:example`, `vs:term_status`, etc.), exemplary competency questions with their respective SPARQL queries, and a Grafoo diagram.\n    "
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
+      {
+        "@language": "en",
+        "@value": "bido"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespaceUri": [
+      {
+        "@language": "en",
+        "@value": "http://purl.org/spar/bido"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "BiDO Standard Bibliometric Measures module (BiDO-Standard-Bibliometric-Measures)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.sparontologies.net/ontologies/bido"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#backwardCompatibleWith": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/2015-07-15"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "http://purl.org/spar/bido-core"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#priorVersion": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/2015-07-15"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionIRI": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/2026-08-14"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "1.1.1"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/logo": [
+      {
+        "@id": "https://github.com/SPAROntologies/bido/blob/master/spar.png"
+      }
+    ],
+    "https://schema.org/codeRepository": [
+      {
+        "@id": "https://github.com/SPAROntologies/bido"
+      }
+    ],
+    "https://schema.org/includedInDataCatalog": [
+      {
+        "@id": "https://fairsharing.org/"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#wasAttributedTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between an entity ascribed to an agent and that agent."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.w3.org/ns/prov#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "was attributed to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/ns/prov#Agent"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/date",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/BibliometricDataInTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-bibliometric-data-in-time a bido:BibliometricDataInTime ;\n        tvc:atTime :my-time-interval ;\n        bido:accordingTo :my-organization ;\n        bido:withBibliometricData :my-bibliometric-data .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A particular situation that describes a bibliometric data a person, an article, or any other publication-related entity may have, that can be restricted to a particular time interval."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "bibliometric data in time"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N4776cebd1b9a42039e9ca35974af46f0"
+      },
+      {
+        "@id": "_:N279c3d0388f14285b0f3d2928f53dcc7"
+      },
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4776cebd1b9a42039e9ca35974af46f0",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2006/time#Interval"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/atTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:N279c3d0388f14285b0f3d2928f53dcc7",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricMeasure"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/withValue"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/BibliometricData",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-bibliometric-data-in-time a bido:BibliometricDataInTime ;\n        bido:accordingTo :my-organization ;\n        bido:withBibliometricData :my-bibliometric-data .\n\n    :my-bibliometric-data a bido:BibliometricData .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Any kind of bibliometric data. In particular, they are organised according two sub-concepts: numeric data and categorial data."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "bibliometric data"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/journal-impact-factor",
+    "@type": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db19"
+      },
+      "http://purl.org/spar/bido/BibliometricMeasure",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:journal-impact-factor ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A measure reflecting the average number of citations to recent articles published in the journal. It is frequently used as a proxy for the relative importance of a journal within its field, with journals with higher impact factors deemed to be more important than those with lower ones."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "journal impact factor"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db19",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db20"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db24"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db20",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db21"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db23"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db21",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/Journal"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db22"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db22",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/holdsBibliometricDataInTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db23",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/withBibliometricData"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db24",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2012/04/tvc/hasValue",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between an entity and a value in time situation."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/tvc/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "has value"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2012/04/tvc/withinContext",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The relation between a value in time and the specific context within which the fact of the entity having the value is relevant."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/tvc/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "within context"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An idea or notion; a unit of thought."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "concept"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#Agent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.w3.org/ns/prov#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "agent"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/contributor",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#integer",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/bido/author-citation-count",
+    "@type": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db1"
+      },
+      "http://purl.org/spar/bido/BibliometricMeasure",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:author-citation-count ;\n        bido:hasNumericValue \"56\"^^xsd:integer .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The count of all the citation received by all the papers of a certain author."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-standard-bibliometric-measures/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "author citation count"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db2"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db6"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db3"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db5"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n16989240426d470a9f8ba79d280bfa1db4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db4",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/holdsBibliometricDataInTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db5",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/withBibliometricData"
+      }
+    ]
+  },
+  {
+    "@id": "_:n16989240426d470a9f8ba79d280bfa1db6",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
+      }
+    ]
+  }
+]

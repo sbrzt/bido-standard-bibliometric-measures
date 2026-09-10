@@ -1,0 +1,31 @@
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n16989240426d470a9f8ba79d280bfa1db28 .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "Bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure."@en .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core/> .
+_:n16989240426d470a9f8ba79d280bfa1db27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n16989240426d470a9f8ba79d280bfa1db26 .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://purl.org/vocab/vann/example> "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:journal-impact-factor ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    " .
+_:n16989240426d470a9f8ba79d280bfa1db25 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:n16989240426d470a9f8ba79d280bfa1db28 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:N4f79af38a88c4a928d583797134b1551 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n16989240426d470a9f8ba79d280bfa1db25 .
+_:n16989240426d470a9f8ba79d280bfa1db28 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:n16989240426d470a9f8ba79d280bfa1db27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:n16989240426d470a9f8ba79d280bfa1db26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:N4f79af38a88c4a928d583797134b1551 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Na31f5272667c44799b71baa06a873697 .
+_:n16989240426d470a9f8ba79d280bfa1db28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n16989240426d470a9f8ba79d280bfa1db26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "numeric bibliometric data"@en .
+_:n16989240426d470a9f8ba79d280bfa1db26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
+_:Na31f5272667c44799b71baa06a873697 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .
+_:n16989240426d470a9f8ba79d280bfa1db25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n16989240426d470a9f8ba79d280bfa1db27 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
+_:Na31f5272667c44799b71baa06a873697 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N4f79af38a88c4a928d583797134b1551 .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n16989240426d470a9f8ba79d280bfa1db27 .
+_:Na31f5272667c44799b71baa06a873697 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
+_:N4f79af38a88c4a928d583797134b1551 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n16989240426d470a9f8ba79d280bfa1db25 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
